@@ -1,8 +1,12 @@
 @import "tailwindcss";
+@import "@fontsource-variable/montserrat";
 
 @theme {
     --color-primary: #054c73;
     --color-secondary: #F2F5FF;
     --color-ink: #333333;
     --color-background: #FCFCFC;
+    --font-sans: "Montserrat Variable", ui-sans-serif, system-ui, sans-serif;
+    --text-h1: 3.25rem;
+    --text-h2: 1.25rem;
 }
