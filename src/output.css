@@ -200,8 +200,17 @@
   .m-2 {
     margin: calc(var(--spacing) * 2);
   }
+  .m-16 {
+    margin: calc(var(--spacing) * 16);
+  }
   .m-\[0\] {
     margin: 0;
+  }
+  .mx-16 {
+    margin-inline: calc(var(--spacing) * 16);
+  }
+  .mb-2 {
+    margin-bottom: calc(var(--spacing) * 2);
   }
   .mb-8 {
     margin-bottom: calc(var(--spacing) * 8);
