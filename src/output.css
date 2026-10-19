@@ -210,6 +210,9 @@
   .my-2 {
     margin-block: calc(var(--spacing) * 2);
   }
+  .my-4 {
+    margin-block: calc(var(--spacing) * 4);
+  }
   .mt-2 {
     margin-top: calc(var(--spacing) * 2);
   }
@@ -218,6 +221,9 @@
   }
   .mt-8 {
     margin-top: calc(var(--spacing) * 8);
+  }
+  .mb-2 {
+    margin-bottom: calc(var(--spacing) * 2);
   }
   .mb-16 {
     margin-bottom: calc(var(--spacing) * 16);
@@ -242,6 +248,9 @@
   }
   .h-\[150px\] {
     height: 150px;
+  }
+  .h-\[185px\] {
+    height: 185px;
   }
   .h-\[280px\] {
     height: 280px;
@@ -269,6 +278,9 @@
   }
   .w-\[90\] {
     width: 90;
+  }
+  .w-\[175px\] {
+    width: 175px;
   }
   .w-\[229px\] {
     width: 229px;
