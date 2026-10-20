@@ -1,13 +1,12 @@
 <!--Mailing Block-->
-<div class="flex flex-col justify-center items-center gap-16 bg-secondary px-32 py-16">
+<div class="flex flex-col items-center gap-8 bg-secondary px-5 py-16 sm:px-8 md:py-20">
     <div>
-        <h2 class="font-bold text-center text-4xl m-2">Join Our Mailing List</h2>
-        <p class="text-lg leading-loose text-center text-ink">Sign up to receive inspiration, product updates,<br> and
-            special offers from our team..</p>
+        <h2 class="m-2 text-center text-3xl font-bold sm:text-4xl">Join Our Mailing List</h2>
+        <p class="text-center text-base leading-relaxed text-ink sm:text-lg">Sign up to receive inspiration, product updates, and special offers from our team.</p>
     </div>
-    <div class="flex flex-row w-[486px] h-[70px]  gap-4 border-2 border-primary pl-8">
-        <input placeholder="example@gmail.com" type="text" name="email" id="email  ">
-        <button class="flex flex-row justify-center items-center text-white font-bold p-[20px] bg-primary ml-auto">
+    <div class="flex w-full max-w-xl flex-col gap-3 sm:flex-row">
+        <input class="min-h-14 min-w-0 flex-1 border-2 border-primary bg-white px-4 text-base focus:outline-none focus:ring-2 focus:ring-primary" placeholder="example@gmail.com" type="email" name="email" id="email">
+        <button class="min-h-14 bg-primary px-7 font-bold text-white transition hover:bg-primary/90" type="submit">
             Submit
         </button>
     </div>

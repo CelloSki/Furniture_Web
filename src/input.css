@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "@fontsource-variable/montserrat";
+@source "./components";
 
 @theme {
     --color-primary: #054c73;
@@ -9,4 +10,10 @@
     --font-sans: "Montserrat Variable", ui-sans-serif, system-ui, sans-serif;
     --text-h1: 3.25rem;
     --text-h2: 1.25rem;
+}
+
+@layer base {
+    html { scroll-behavior: smooth; }
+    body { overflow-x: hidden; }
+    img { max-width: 100%; height: auto; }
 }
